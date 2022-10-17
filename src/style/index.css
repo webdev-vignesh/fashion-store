@@ -1,12 +1,10 @@
-p{
-    margin: 0;
-}
+
 .carousel-caption{
     bottom: 10rem;
     left: 22%;
     width: 50vw;
 }
-.heading{
+h3{
     font-size: 60px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -14,7 +12,7 @@ p{
     margin-bottom: 20px;
     color: #ffffff;
 }
-.sub-heading{
+p{
     font-size: 14px;
     line-height: 24px;
     font-family: "Roboto", sans-serif;

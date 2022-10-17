@@ -1,4 +1,3 @@
-import React from 'react'
 import '../style/index.css';
 import {InputGroup,FormControl} from 'react-bootstrap';
 
@@ -15,7 +14,7 @@ function FooterComponent() {
         <div className="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
             <div className="row pt-5">
                 <div className="col-lg-4 col-md-6 mb-5">
-                    <h2 className="text-primary mb-4">Fashion Looks</h2>
+                    <h2 className="text-primary mb-4">Fab Dressing</h2>
                     <p className="my-4">
                         Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet ea
                         dolor et magna dolor, elitr rebum duo est sed diam elitr. Stet elitr
@@ -45,7 +44,7 @@ function FooterComponent() {
             </div>
             <div className="container-fluid pt-5" style={{borderTop: '1px solid rgba(23, 162, 184, 0.2)' }}>
                 <p className="m-0 text-center text-white">
-                    &copy;<a className="text-primary text-decoration-none" href="#">Fashion Looks</a>.
+                    &copy;<a className="text-primary text-decoration-none" href="#">Fab Dressing</a>.
                     All Rights Reserved. Designed by <span className='text-warning'>Vignesh Murugan</span> with ❤️
                 </p>
             </div>

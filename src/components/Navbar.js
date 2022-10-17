@@ -7,7 +7,7 @@ class Navbar extends Component {
                 <nav className='navbar navbar-default navbar-expand-sm bg-light'>
                     <div className='container'>
                         <div>
-                            <a className='navbar-brand' href='/'>Fashion Looks</a>
+                            <a className='navbar-brand fw-bold' href='/'>Fab Dressing</a>
                         </div>
                         <ul className='nav navbar-nav '>
                             <li className='nav-item'><a href='home' className=' nav-link'>Home</a></li>
