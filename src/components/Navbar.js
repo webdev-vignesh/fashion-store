@@ -1,5 +1,6 @@
 import { Component } from "react";
-
+import {Link} from "react-router-dom";
+ 
 class Navbar extends Component {
     render() {
         return(
@@ -7,11 +8,11 @@ class Navbar extends Component {
                 <nav className='navbar navbar-default navbar-expand-sm bg-light'>
                     <div className='container'>
                         <div>
-                            <a className='navbar-brand fw-bold' href='/'>Fab Dressing</a>
+                            <Link className='navbar-brand fw-bold' to='/'>Fab Dressing</Link>
                         </div>
                         <ul className='nav navbar-nav '>
-                            <li className='nav-item'><a href='home' className=' nav-link'>Home</a></li>
-                            <li className='nav-item'><a href='shop' className='nav-link active'>Shop</a></li>
+                            <li className='nav-item'><Link to='/' className=' nav-link'>Home</Link></li>
+                            <li className='nav-item'><Link to='/shop' className='nav-link active'>Shop</Link></li>
                             <li className='nav-item'><button className='btn btn-primary rounded-pill' >Register/ Login</button></li>
                         </ul>
                     </div>
